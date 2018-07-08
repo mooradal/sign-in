@@ -1,0 +1,150 @@
+html, body {
+	margin:0px;
+	font-family:Open Sans; 
+}
+
+
+#login {
+	box-shadow:0px 2px 5px 0px rgba(0,0,0,.3);
+	width:450px;
+	display:block;
+	margin:5% auto;
+	border-radius:8px;
+	overflow:hidden;
+}
+
+img {
+	padding:8% 0% 0% 10%;
+}
+
+h1 {
+	margin-bottom:0%;
+	padding:0% 0% 0% 10%;
+	font-size:24px;
+	font-weight:400;
+}
+
+h2 {
+	font-size:16px;
+	font-weight:400;
+	padding:0% 0% 0% 0%;
+}
+
+p {
+	padding:0% 10% 5% 10%;
+	font-size:13px;
+}
+
+input {
+	margin:0% 10% 0% 10%;
+	width:80%;
+	font:400 16px Roboto;
+	border-color:#E0E0E0;
+	border-width:0px 0px 2px 0px;	
+	outline:none;
+}
+
+#email {
+	padding:5px;
+}
+
+#email:focus {
+	border-color:#4285F4;
+	transition:0.2s;
+}
+#email:focus {
+
+}
+
+a, a:visited {
+	color:#4285F4;
+	text-decoration:none;
+}
+
+#animation {
+	opacity:0;
+	padding:0% 0% 0% 10%;
+	font-size:12px;
+	color:#4285F4;
+	transition:0.2s;
+}
+
+h3 {
+	padding:2% 0% 0% 10%;
+	font-size:14px;
+	font-weight:400;
+}
+
+#footer {
+	height:auto;
+	padding:0% 5% 8% 5%;
+
+}
+
+#text {
+	width:48%;
+	display:inline-block;
+}
+
+#button {
+	width:48%;
+	display:inline-block;
+	text-align:right;
+}
+
+button {
+	background:#4285f4;
+	border-radius:3px;
+	text-align:center;
+	border:0px;
+	padding:10px 24px; 
+	color:white;
+	font:14px Roboto;
+	font-weight:750;
+	box-shadow:0px 3px 2px rgba(0,0,0,0.2);
+	outline:none;
+		transition:0.3s;
+}
+
+button:active {
+	background:#3670d1;
+	transition:0.3s;
+}
+
+#loading {
+	background:lightgrey;
+	height:5px;
+	overflow:hidden;
+	opacity:0	;
+}
+
+#progress {
+	margin-left:-50%;
+	height:5px;
+	width:50%;
+	background:#FF9800;
+}
+
+#account {
+	position:relative;
+	margin-left:10%	;
+}
+
+#account * {
+	display:inline-block;
+}
+
+#accounttext {
+	width:100%;
+}
+
+
+#accountimage {
+	position: absolute;
+	top:25%;
+	height:20px;
+}
+
+button:disabled {
+	opacity:0.4;
+}
